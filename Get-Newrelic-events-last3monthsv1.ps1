@@ -1,3 +1,13 @@
+<#
+Author # Amarnadh Janaswamy
+Created on # 10/30/2024
+.SYNOPSIS
+Checks the New Relic Infrastructure Agent service status.
+.DESCRIPTION
+This Script retrieves the New Relic Infrastructure Agent Service status on a remote Windows servers for last 3 months(this can be change according to your need).
+It then prints the Server Name, Service Name, Service Status, TimeStamp of the status.
+The results are printed on screen and als exported to a CSV file.#>
+
 # Define parameters
 $LogName = "System"
 $EventID = 7036
