@@ -13,7 +13,7 @@ $LogName = "System"
 $EventID = 7036
 $ServiceName = "New Relic Infrastructure Agent"
 $StartTime = (Get-Date).AddMonths(-3)
-$ServerListPath = "C:\Users\ajanaswamy_pa\scripts\server.txt"  # Path to server list
+$ServerListPath = "C:\urpath\server.txt"  # Path to server list
 
 # Read server names from the file
 $Servers = Get-Content -Path $ServerListPath
