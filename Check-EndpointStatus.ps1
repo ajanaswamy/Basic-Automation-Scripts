@@ -65,10 +65,10 @@ function Check-EndpointStatus {
 }
 
 # Input file
-$inputFile = "C:\scripts\servers.txt"
+$inputFile = "C:\urpath\servers.txt"
 
 # Output file
-$outputFile = "C:\scripts\EndpointStatus.csv"
+$outputFile = "C:\urpath\EndpointStatus.csv"
 
 # Create an array to store results
 $results = @()
