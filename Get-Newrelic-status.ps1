@@ -1,6 +1,15 @@
+<#
+Author # Amarnadh Janaswamy
+Created on # 10/30/2024
+.SYNOPSIS
+Checks the New Relic Infrastructure Agent service status.
+.DESCRIPTION
+This Script retrieves the New Relic Infrastructure Agent Service status on a remote Windows servers.
+The results are printed on screen On out Grid-view #>
+
 # Define parameters
 $ServiceName = "newrelic-infra"
-$ServerListPath = "C:\Users\ajanaswamy_pa\scripts\server.txt"  # Path to server list
+$ServerListPath = "C:\urpath\server.txt"  # Path to server list
 
 # Read server names from the file
 $Servers = Get-Content -Path $ServerListPath
