@@ -1,6 +1,6 @@
 <#
 .SYNOPSIS
-    Automated Windows patching script for local and remote servers, with centralized logging and detailed execution summaries.
+    Automated Windows patching script for local and remote servers, with centralized logging and detailed execution summaries from HTTP File Share Distribution Point.
 
 .DESCRIPTION
     This PowerShell script performs automated Windows patching across multiple servers by:
