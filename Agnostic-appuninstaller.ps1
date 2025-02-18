@@ -170,7 +170,7 @@ function Uninstall-Applications {
     Write-Progress -Activity "Uninstalling Applications" -Completed
 
     # Export results to CSV
-    $Results | Export-Csv -Path "C:\Users\ajanaswamy_pa\scripts\Uninstall_Applications_Results.csv" -NoTypeInformation -Force
+    $Results | Export-Csv -Path "C:\temp\Uninstall_Applications_Results.csv" -NoTypeInformation -Force
     Write-Host "`nResults exported to Uninstall_Applications_Results.csv" -ForegroundColor Green
 }
 
